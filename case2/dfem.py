@@ -5,8 +5,6 @@ from visdom import Visdom
 import time
 import numpy as np
 import scipy.io as scio
-
-print('torch version: ', torch.__version__)
 class DNN(nn.Module):
     def __init__(self, layer_param):
         super(DNN, self).__init__()
